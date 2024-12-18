@@ -2,8 +2,8 @@ import axios from "axios";
 
 console.log("api.js loaded successfully");
 
-// const BASE_URL = process.env.REACT_APP_BASE_URL || "http://localhost:3001";
-const BASE_URL = "http://localhost:3001";
+const BASE_URL = process.env.REACT_APP_BASE_URL || "http://localhost:3001";
+// const BASE_URL = "http://localhost:3001";
 
 /** API Class.
  *
