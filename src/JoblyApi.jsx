@@ -2,7 +2,11 @@ import axios from "axios";
 
 console.log("api.js loaded successfully");
 
-const BASE_URL = process.env.REACT_APP_BASE_URL || "http://localhost:3001";
+const BASE_URL = import.meta.env.VITE_API_BASE_URL || "http://localhost:3001";
+
+console.log('API Base URL:', BASE_URL);
+// const BASE_URL = process.env.REACT_APP_BASE_URL || "http://localhost:3001";
+
 // const BASE_URL = "http://localhost:3001";
 
 /** API Class.
